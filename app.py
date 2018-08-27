@@ -1,10 +1,15 @@
-import os
 from flask import Flask
+from Flask.ext.sqlalchemy import SQLAlchemy
+import os
 
-print(os.environ['APP_SETTINGS'])
+# print(os.environ['APP_SETTINGS'])
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+
+from models import Result
 
 @app.route('/')
 def hello():

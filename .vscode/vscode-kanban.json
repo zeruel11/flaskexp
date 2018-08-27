@@ -1,0 +1,21 @@
+{
+  "done": [
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-08-27T20:58:10.569Z",
+      "details": {
+        "content": "- setup postgre\n- setup flask alchemy",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Install Requirements"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "todo": []
+}
