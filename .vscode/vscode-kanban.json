@@ -5,7 +5,7 @@
         "name": "zeruel11"
       },
       "creation_time": "2018-08-27T20:58:10.569Z",
-      "details": {
+      "description": {
         "content": "- setup postgre\n- setup flask alchemy",
         "mime": "text/markdown"
       },
@@ -23,7 +23,7 @@
       },
       "creation_time": "2018-08-27T22:00:40.857Z",
       "description": {
-        "content": "- local\n- remote",
+        "content": "- [x] local\n- [ ] remote",
         "mime": "text/markdown"
       },
       "id": "2",
@@ -32,5 +32,19 @@
       "title": "Migration"
     }
   ],
-  "todo": []
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-08-28T05:55:33.390Z",
+      "description": {
+        "content": "update python version to heroku supported (3.6.6)",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "update python version"
+    }
+  ]
 }
