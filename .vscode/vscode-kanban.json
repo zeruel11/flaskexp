@@ -15,7 +15,8 @@
       "title": "Install Requirements"
     }
   ],
-  "in-progress": [
+  "in-progress": [],
+  "testing": [
     {
       "assignedTo": {
         "name": "zeruel11"
@@ -31,6 +32,5 @@
       "title": "Migration"
     }
   ],
-  "testing": [],
   "todo": []
 }
