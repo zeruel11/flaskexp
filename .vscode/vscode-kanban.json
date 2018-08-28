@@ -15,7 +15,22 @@
       "title": "Install Requirements"
     }
   ],
-  "in-progress": [],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-08-27T22:00:40.857Z",
+      "description": {
+        "content": "- local\n- remote",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "prio": 1,
+      "references": [],
+      "title": "Migration"
+    }
+  ],
   "testing": [],
   "todo": []
 }

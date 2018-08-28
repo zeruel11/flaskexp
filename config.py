@@ -1,11 +1,12 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+
 class Config(object):
-    DEBIG = False
+    DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
-    SECRET_KEY = 'this-needs-to-be-changed'
+    SECRET_KEY = 'this-really-needs-to-be-changed'
     SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
 
 
@@ -17,8 +18,9 @@ class StagingConfig(Config):
     DEVELOPMENT = True
     DEBUG = True
 
+
 class DevelopmentConfig(Config):
-    DEVELOMPENT = True
+    DEVELOPMENT = True
     DEBUG = True
 
 
