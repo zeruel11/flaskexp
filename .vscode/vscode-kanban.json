@@ -4,6 +4,16 @@
       "assignedTo": {
         "name": "zeruel11"
       },
+      "creation_time": "2018-08-28T09:20:16.995Z",
+      "id": "6",
+      "prio": 1,
+      "references": [],
+      "title": "display results"
+    },
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
       "creation_time": "2018-08-27T22:00:40.857Z",
       "description": {
         "content": "- [x] local\n- [x] remote",
@@ -59,11 +69,10 @@
       "assignedTo": {
         "name": "zeruel11"
       },
-      "creation_time": "2018-08-28T09:19:33.865Z",
-      "id": "5",
-      "prio": 1,
+      "creation_time": "2018-08-28T19:25:58.071Z",
+      "id": "8",
       "references": [],
-      "title": "make text processing"
+      "title": "setup redis worker"
     }
   ],
   "testing": [
@@ -81,18 +90,17 @@
       "references": [],
       "title": "Install Requirements",
       "type": "bug"
-    }
-  ],
-  "todo": [
+    },
     {
       "assignedTo": {
         "name": "zeruel11"
       },
-      "creation_time": "2018-08-28T09:20:16.995Z",
-      "id": "6",
+      "creation_time": "2018-08-28T09:19:33.865Z",
+      "id": "5",
       "prio": 1,
       "references": [],
-      "title": "display results"
+      "title": "make text processing"
     }
-  ]
+  ],
+  "todo": []
 }

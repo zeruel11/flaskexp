@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 flask = "*"
 gunicorn = "*"
-python-dotenv = "*"
 "psycopg2" = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
@@ -14,6 +13,8 @@ flask-script = "*"
 requests = "*"
 "beautifulsoup4" = "*"
 nltk = "*"
+redis = "*"
+rq = "*"
 
 [dev-packages]
 
