@@ -11,8 +11,11 @@ python-dotenv = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask-script = "*"
+requests = "*"
+"beautifulsoup4" = "*"
+nltk = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.5"
+python_version = "3.7"

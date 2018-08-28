@@ -1,17 +1,19 @@
+-i https://pypi.org/simple
 alembic==1.0.0
 click==6.7
-Flask==1.0.2
-Flask-Migrate==2.2.1
-Flask-SQLAlchemy==2.3.2
+flask-migrate==2.2.1
+flask-script==2.0.6
+flask-sqlalchemy==2.3.2
+flask==1.0.2
 gunicorn==19.9.0
 itsdangerous==0.24
-Jinja2==2.10
-Mako==1.0.7
-MarkupSafe==1.0
+jinja2==2.10
+mako==1.0.7
+markupsafe==1.0
 psycopg2==2.7.5
 python-dateutil==2.7.3
 python-dotenv==0.9.1
 python-editor==1.0.3
 six==1.11.0
-SQLAlchemy==1.2.11
-Werkzeug==0.14.1
+sqlalchemy==1.2.11
+werkzeug==0.14.1
