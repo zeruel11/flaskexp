@@ -37,9 +37,35 @@
       "references": [],
       "title": "update python version",
       "type": "bug"
+    },
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-08-28T11:43:04.948Z",
+      "description": {
+        "content": "- install postgre\n- create password for default user",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "prio": -1,
+      "references": [],
+      "title": "setup postgre dev",
+      "type": "emergency"
     }
   ],
-  "in-progress": [],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-08-28T09:19:33.865Z",
+      "id": "5",
+      "prio": 1,
+      "references": [],
+      "title": "make text processing"
+    }
+  ],
   "testing": [
     {
       "assignedTo": {
@@ -55,16 +81,6 @@
       "references": [],
       "title": "Install Requirements",
       "type": "bug"
-    },
-    {
-      "assignedTo": {
-        "name": "zeruel11"
-      },
-      "creation_time": "2018-08-28T09:19:33.865Z",
-      "id": "5",
-      "prio": 1,
-      "references": [],
-      "title": "make text processing"
     }
   ],
   "todo": [
