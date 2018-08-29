@@ -14,6 +14,16 @@
       "assignedTo": {
         "name": "zeruel11"
       },
+      "creation_time": "2018-08-28T09:19:33.865Z",
+      "id": "5",
+      "prio": 1,
+      "references": [],
+      "title": "make text processing"
+    },
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
       "creation_time": "2018-08-27T22:00:40.857Z",
       "description": {
         "content": "- [x] local\n- [x] remote",
@@ -49,6 +59,16 @@
       "type": "bug"
     },
     {
+      "creation_time": "2018-08-29T15:13:23.189Z",
+      "description": {
+        "content": "- [x] create angular mod\n- [x] refactor app.py\n- [x] basic polling\n- [x] update DOM",
+        "mime": "text/markdown"
+      },
+      "id": "9",
+      "references": [],
+      "title": "setup angular"
+    },
+    {
       "assignedTo": {
         "name": "zeruel11"
       },
@@ -64,17 +84,7 @@
       "type": "emergency"
     }
   ],
-  "in-progress": [
-    {
-      "assignedTo": {
-        "name": "zeruel11"
-      },
-      "creation_time": "2018-08-28T19:25:58.071Z",
-      "id": "8",
-      "references": [],
-      "title": "setup redis worker"
-    }
-  ],
+  "in-progress": [],
   "testing": [
     {
       "assignedTo": {
@@ -90,17 +100,21 @@
       "references": [],
       "title": "Install Requirements",
       "type": "bug"
-    },
+    }
+  ],
+  "todo": [
     {
       "assignedTo": {
         "name": "zeruel11"
       },
-      "creation_time": "2018-08-28T09:19:33.865Z",
-      "id": "5",
-      "prio": 1,
+      "creation_time": "2018-08-28T19:25:58.071Z",
+      "description": {
+        "content": "- setup local\n- setup heroku",
+        "mime": "text/markdown"
+      },
+      "id": "8",
       "references": [],
-      "title": "make text processing"
+      "title": "setup redis worker"
     }
-  ],
-  "todo": []
+  ]
 }
