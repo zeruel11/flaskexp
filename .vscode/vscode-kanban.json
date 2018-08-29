@@ -45,6 +45,20 @@
       "title": "Setup Requests python"
     },
     {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-08-28T05:55:33.390Z",
+      "description": {
+        "content": "update python version to heroku supported (3.6.6)",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "update python version",
+      "type": "bug"
+    },
+    {
       "creation_time": "2018-08-29T15:13:23.189Z",
       "description": {
         "content": "- [x] create angular mod\n- [x] refactor app.py\n- [x] basic polling\n- [x] update DOM",
@@ -68,24 +82,22 @@
       "references": [],
       "title": "setup postgre dev",
       "type": "emergency"
-    }
-  ],
-  "in-progress": [
+    },
     {
       "assignedTo": {
         "name": "zeruel11"
       },
-      "creation_time": "2018-08-28T05:55:33.390Z",
+      "creation_time": "2018-08-28T19:25:58.071Z",
       "description": {
-        "content": "update python version to heroku supported (3.6.6)",
+        "content": "- [x]setup local\n- [ ]setup heroku(skipped)",
         "mime": "text/markdown"
       },
-      "id": "3",
+      "id": "8",
       "references": [],
-      "title": "update python version",
-      "type": "bug"
+      "title": "setup redis worker"
     }
   ],
+  "in-progress": [],
   "testing": [
     {
       "assignedTo": {
@@ -103,19 +115,5 @@
       "type": "bug"
     }
   ],
-  "todo": [
-    {
-      "assignedTo": {
-        "name": "zeruel11"
-      },
-      "creation_time": "2018-08-28T19:25:58.071Z",
-      "description": {
-        "content": "- setup local\n- setup heroku",
-        "mime": "text/markdown"
-      },
-      "id": "8",
-      "references": [],
-      "title": "setup redis worker"
-    }
-  ]
+  "todo": []
 }
