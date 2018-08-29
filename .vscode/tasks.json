@@ -2,21 +2,27 @@
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "wsl.exe"
+            }
+        }
+    },
     "tasks": [
         {
             "label": "worker",
             "type": "shell",
             "command": "/home/zeruel/.local/bin//pipenv run python worker.py",
             "problemMatcher": [],
-            "options": {
-                "env": {
-                    // "PATH": "/home/zeruel/.local/bin"
-                },
-                // "cwd": "${worspaceRoot}",
-                "shell": {
-                    "executable": "wsl.exe",
-                }
-            }
+        },
+        {
+            "label": "server",
+            "type": "shell",
+            "command": [
+                "/home/zeruel/.local/bin//pipenv run python manage.py runserver"
+            ],
+            "problemMatcher": [],
         }
     ]
 }
