@@ -72,6 +72,19 @@
       "assignedTo": {
         "name": "zeruel11"
       },
+      "creation_time": "2018-08-28T19:25:58.071Z",
+      "description": {
+        "content": "- [x]setup local\n- [ ]setup heroku(skipped)",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "setup redis worker"
+    },
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
       "creation_time": "2018-08-28T11:43:04.948Z",
       "description": {
         "content": "- install postgre\n- create password for default user",
@@ -82,19 +95,6 @@
       "references": [],
       "title": "setup postgre dev",
       "type": "emergency"
-    },
-    {
-      "assignedTo": {
-        "name": "zeruel11"
-      },
-      "creation_time": "2018-08-28T19:25:58.071Z",
-      "description": {
-        "content": "- [x]setup local\n- [ ]setup heroku(skipped)",
-        "mime": "text/markdown"
-      },
-      "id": "8",
-      "references": [],
-      "title": "setup redis worker"
     }
   ],
   "in-progress": [],
@@ -113,6 +113,19 @@
       "references": [],
       "title": "Install Requirements",
       "type": "bug"
+    },
+    {
+      "assignedTo": {
+        "name": "zeruel11"
+      },
+      "creation_time": "2018-09-03T10:53:40.772Z",
+      "description": {
+        "content": "angular enhance\n- fix d3 chart",
+        "mime": "text/markdown"
+      },
+      "id": "10",
+      "references": [],
+      "title": "frontend"
     }
   ],
   "todo": []

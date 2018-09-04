@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "endraw"
-    ]
+    ],
+    "editor.renderWhitespace": "all"
 }

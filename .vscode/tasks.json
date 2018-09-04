@@ -23,6 +23,15 @@
                 "/home/zeruel/.local/bin//pipenv run python manage.py runserver"
             ],
             "problemMatcher": [],
+        },
+        {
+            "label": "deploy:heroku-stage",
+            "type": "shell",
+            "command": [
+                "git push flaskexp-stage master"
+            ],
+            "group": "build",
+            "problemMatcher": [],
         }
     ]
 }

@@ -15,6 +15,7 @@ requests = "*"
 nltk = "*"
 redis = "*"
 rq = "*"
+lxml = "*"
 
 [dev-packages]
 
